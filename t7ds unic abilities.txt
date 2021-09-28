@@ -1,0 +1,160 @@
+GAME RULES
+beginning of each round, both players roll speed. highest acts first.
+both players have action points (AP) that he can spend to make attacks, moves, reactions or activate stances
+to make an action, click in the action and then click the confirm button to procced
+when a player makes an action, the priority pass to opponent. so, the opponent can respond with a reaction.
+after 5s, if opponent dont use a reaction, the action of previews player resolves.
+after resolution of an action, priority goes to opponent.
+a reaction can be used only in response of an opponent's action. is not possible to respond a reaction.
+after both players had spend all their action points, the round ends.
+COOLDOWN
+after use a power, that power enters in cooldown and cant be used again until cooldown reach 0.
+at the beginning of each round, the cooldown of each spended power reduces by 1.
+
+
+ATTRIBUTES
+MAGIC
+-mana(energy needed to use powers) 200+10*mgc
+-spell(damage deal by spell attacks) mgc*3--mgc*5
+-dodge(chance of avoid attack) 50 + mgc*2.5
+
+STRENGTH
+-life(health) 400+20*stg
+-weapon(damage deal by weapon attacks) stg*2--stg*4
+-armor(damage reduced by each attack) 1%*(stg/2)
+
+SPIRIT
+-attack(chance to hit) 100+spt*2
+-speed(number of actions you can do each round) spt//10
+-critical(chance to deal double damage on attack) 1%*(spt/2)
+
+
+CHARACTERS
+MELIODAS mana-620
+mgc-44 stg-62 spt-44
+attacks: strike; thousand cuts; trillion darkness; hellblaze
+counters: block; full counter
+moves: walk; dash
+stances: powerup; assault mode
+
+ESCANOR mana-400
+mgc-20 stg-100 spt-30
+attacks: strike; super slash; divine sword; cruel sun
+counters: block
+moves: walk; charge; dash
+stances: powerup; the one
+
+BAN mana-760
+mgc-54 stg-50 spt-46
+attacks: eldritch; fox hunt; assault hunt
+counters: evade; retaliate
+moves: walk; banishing kill
+stances: powerup; imortality; hunter fest
+
+HARLEQUINN mana-1160
+mgc-96 stg-4 spt-50
+attacks: blast; sunflower; increase; petrification
+counters: evade; blink
+moves: fly
+stances: powerup; guardian; pollen guarden
+
+MERLIN mana-1200
+mgc-100 stg-6 spt-44
+attacks: blast; exterminate ray; shock stinger
+counters: evade; absolute cancel
+moves: fly; teleport
+stances: powerup; power amplify; magic seal
+
+DIANE mana-500
+mgc-30 stg-88 spt-32
+attacks: throw; ground gladius; rising meteor, rush rock
+counters: block; heavy metal
+moves: walk; charge
+stances: powerup; drole's dance
+
+ACTION TYPES
+ultimate: power that can't be countered and can be used only if your life or mana is bellow 50%
+counter: when a power is countered, it producess no effect
+
+powerlevel|damage|cost
+1-1x|||10
+2-2x|50
+3-3x|||100
+4-5x|||300
+
+power types
+magic=¹
+strength=²
+spirit=³
+
+STATUS if not specified, lasts until end of turn
+1-paralized: cant move
+2-dazzed: cant use reactions
+3-frightened: -50% attack
+4-stunned: -50% dodge
+5-weakened: -50% weapon and spell
+6-vulnerable: armor set to 0%
+
+1-focused: +50% attack
+2-empowered: +50% weapon and spell
+3-elusive: +50% dodge
+4-hardened: armor set to 75%
+5-deadly: critical set to 75%
+6-hasted: speed set to 5
+
+
+ACTION
+attack
+-strike(cd-10): melee weapon attack. opponent got dazzed if hit
+-blast(cd-25): ranged spell attack. opponent got weakened if hit
+-throw(cd-15): ranged weapon attack. opponent got stunned if hit
+-eldritch(cd-20): melee spell attack. opponnent got vulnerable if hit
+-thousand cuts(cd-50): 10 deadly melee weapon attacks that deals 15% damage.
+-trillion darkness(ultimate|cd-200): 30 focused deadly ranged spell attacks that deals 10% damage
+-hellblaze(cd-100): ranged spell attack that deals 400% damage. opponent got stunned 
+-super slash(cd-50): focused melee weapon attack that deals 150% damage. opponent got paralized if hit
+-divine sword(cd-100): deadly melee weapon attack that deals 200% damage. opponent got stunned
+-cruel sun(ultimate|cd-150): focused ranged spell attack that deals 1500% damage. opponent got vulnerable
+-fox hunt(cd-100): 4 focused melee weapon attacks that deals 75% damage. for each attack that hits, enemy lose 10% mana
+-assault hunt(ultimate|cd-200): 6 deadly melee spell attacks that deals 75% damage. for each attack that hits, enemy loses 1 speed
+-sunflower(cd-150): deadly ranged spell attack that deals 150% damage. opponent got weakened
+-increase(cd-300): 20 focused ranged spell attacks that deals 15% damage. opponent got vulnerable
+-petrification(ultimate-400): focused ranged spell attack that deals 150% damage. if hit, target speed is set to 0 until end of next turn
+-exterminate ray(ultimate-500): focused ranged spell attack that deals damage equals to half enemy's full life. 
+-shock stinger(cd-50): focused ranged spell attack that deals 450% damage. opponent got dazzed
+-double hammer(cd-100): 2 focused melee weapon attacks. if both hit, enemy takes +200 weapon damage and is stunned
+-rising meteor(ultimate-200): deadly ranged spell attack that deals 1000% damage. enemy moves 2 closer and is paralized
+-rush rock(cd-100): 15 focused ranged weapon attacks that deals 20% damage
+
+move
+-fly(cd-20): move 1 away
+-walk(cd-10): move 1 closer
+-charge(cd-40): move 2 closer and makes a melee weapon attack. opponent got vulnerable
+-banishing kill(cd-100): move 2 closer and makes 2 focused melee spell attacks. opponent got weakened if at least 1 hit
+
+stance-lasts 3 rounds
+-powerup(cd-10): when activated, and beginning of each turn, recover 10% mana and lose 5% life
+-assault mode(ultimate|cd-150): when activated, you got empowered, hardened and deadly
+-the one(ultimate|cd-100): when activated, you got focused, empowered and hasted
+-imortality(always active): beginning of each turn, recover 20% life
+-hunter fest(ultimate|cd-200): when activated, your opponent got frightened and weakened and you got empowered and focused
+-guardian(cd-250): create a guardian with (mgc*10)life. he takes all attacks directed to you
+-pollen garden(ultimate|cd-350): when activated, and beggining of each turn, recover 30% life and you got elusive and hardened
+-power amplify(cd-200): when activated, you got empowered and deadly 
+-magic seal(cd-250): when activated, your opponent power's mana cost is doubled
+-drole's dance(ultimate|cd-100): when activated, you got elusive, empowered and hasted
+
+REACTION
+counter
+-block(cd-40): if your opponent makes a melee attack, you got hardened against it
+-evade(cd-50): if your opponent makes a ranged attack, you got elusive against it
+-absolute cancel(ultimate|cd-250): when your opponent makes any power, counter it, even ultimates
+-heavy metal(cd-100): if your opponent makes any attack, you got empowered, and hardened until end of turn 
+-retaliate(cd-100): if your opponent makes a weapon attack, you got elusive against it and make a focused ranged spell attack. opponent got dazzed if hit
+-full counter(cd-150): if your opponent makes a spell attack, empower it and focus it. change its target to itself
+-blink(cd-100): if your opponent makes any attack, counter it
+
+move
+-teleport(cd-75): when enemy get closer, move 2 away
+-dash(cd-30): when enemy move away, move 2 closer
+
